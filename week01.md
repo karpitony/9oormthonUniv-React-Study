@@ -1,13 +1,13 @@
 # 리액트 스터디 1주차 - 리액트 웹 예제 클론코딩
 
-노마드 코더님의 [ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners/)를 들으며 방학동안 리액트 기본문법을 배운 후 이번주는 Todo리스트, 코인 트래커를 따라 만들어보았습니다. 원래는 영화 서비스 페이지도 클론코딩해볼 계획이였으나, 개강 첫주라 시간이 부족했었습니다. 또한 전체적인 학습 계획을 조금 수정해보았습니다. [README.md](README.md)에 주차별로 어떤 내용을 배울지 업데이트 해봤습니다.
+노마드 코더님의 [ReactJS로 영화 웹 서비스 만들기](https://nomadcoders.co/react-for-beginners/)를 들으며 방학동안 리액트 기본문법을 배운 후 이번주는 Todo리스트, 코인 트래커를 따라 만들어보았습니다. 원래는 영화 서비스 페이지도 클론코딩해볼 계획이였으나, 개강 첫주라 시간이 부족했었습니다. 또한 전체적인 학습 계획을 조금 수정해보았습니다. [README.md](https://karpitony.github.io/9roomthonUniv-React-Study/)에 주차별로 어떤 내용을 배울지 업데이트 해봤습니다.
 
 <br>
 
-1. [To do 리스트를 만들며](#to-do-리스트를-만들며)
+1. [**To do 리스트를 만들며**](#to-do-리스트를-만들며)
     1. [리액트의 useState() 함수](#1-리액트의-usestate-함수)
     2. [`.map()`함수와 `...` 문법](#2-map함수와--문법)
-2. [Coin Tracker를 만들며](#coin-tracker를-만들며)
+2. [**Coin Tracker를 만들며**](#coin-tracker를-만들며)
     1. [리액트의 `useEffect()` 함수](#1-리액트의-useeffect-함수)
     2. [Javascript 삼항 연산자](#2-javascript-삼항-연산자)
     3. [`fetch().then()` 문법](#3-fetchthen-문법)
@@ -54,7 +54,7 @@ function App() {
 
 export default App;
 ```
-> [!NOTE]
+
 > **배운 것들**
 > 1. 리액트의 `useState()`함수 
 > 2. `.map()`함수와 `...` 문법
@@ -151,7 +151,6 @@ function App() {
 export default App;
 ```
 
-> [!NOTE]
 > **배운 것들**
 > 1. 리액트의 `useEffect()`함수
 > 2. Javascript 삼항연산자
