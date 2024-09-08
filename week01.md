@@ -8,7 +8,11 @@
     1. [리액트의 useState() 함수](#1-리액트의-usestate-함수)
     2. [`.map()`함수와 `...` 문법](#2-map함수와--문법)
 2. [Coin Tracker를 만들며](#coin-tracker를-만들며)
+    1. [리액트의 `useEffect()` 함수](#1-리액트의-useeffect-함수)
+    2. [Javascript 삼항 연산자](#2-javascript-삼항-연산자)
+    3. [`fetch().then()` 문법](#3-fetchthen-문법)
 
+<hr>
 
 ## `To do 리스트`를 만들며
 ![week01_01](/img/week01_01.png)
