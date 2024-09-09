@@ -1,7 +1,14 @@
 # 9roomthonUniv-React-Study
 
-구름톤 유니브 3기 동국대 리액트 스터디 기록 레포지토리
+- 구름톤 유니브 3기 동국대 `리액트 스터디` 기록 레포지토리
+- [노션 바로가기](https://paper-duckling-917.notion.site/7ee22ae1db5b4af4803a7f3b01dd6c57)
+- 매주 일요일 자정까지 업로드
+- 학습 현황, 실습 등을 올리기
 
+<hr>
+
+<div align="center">
+    
 주차 | 날짜 | 학습 계획 & 내용
 |:---:|:---:|:--:|
 1주차 | 9/02 ~ 9/08 | [리액트 웹 예제 클론코딩](https://karpitony.github.io/9roomthonUniv-React-Study/week01)
@@ -13,6 +20,8 @@
 7주차 | 10/14 ~ 10/20 | 타입스크립트 강의 수강하기
 8주차 | 10/21 ~ 10/27 | 중간고사
 9주차 | 10/28 ~ 11/03 | Recap & 실전 프로젝트 해보기
+
+</div>
 
 <div align="center">
     <a href="https://github.com/karpitony/9roomthonUniv-React-Study">깃허브 레포지토리 보기</a> | <a href="https://karpitony.github.io/9roomthonUniv-React-Study/">웹페이지 보기</a>
