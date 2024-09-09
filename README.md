@@ -7,8 +7,6 @@
 
 <hr>
 
-<div align="center">
-    
 주차 | 날짜 | 학습 계획 & 내용
 |:---:|:---:|:--:|
 1주차 | 9/02 ~ 9/08 | [리액트 웹 예제 클론코딩](https://karpitony.github.io/9roomthonUniv-React-Study/week01)
@@ -21,8 +19,5 @@
 8주차 | 10/21 ~ 10/27 | 중간고사
 9주차 | 10/28 ~ 11/03 | Recap & 실전 프로젝트 해보기
 
-</div>
 
-<div align="center">
-    <a href="https://github.com/karpitony/9roomthonUniv-React-Study">깃허브 레포지토리 보기</a> | <a href="https://karpitony.github.io/9roomthonUniv-React-Study/">웹페이지 보기</a>
-<div>
+<a href="https://github.com/karpitony/9roomthonUniv-React-Study">깃허브 레포지토리 보기</a> | <a href="https://karpitony.github.io/9roomthonUniv-React-Study/">웹페이지 보기</a>
