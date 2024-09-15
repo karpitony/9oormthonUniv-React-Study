@@ -10,7 +10,7 @@
 주차 | 날짜 | 학습 계획 & 내용
 |:---:|:---:|:--:|
 1주차 | 9/02 ~ 9/08 | [리액트 웹 예제 클론코딩](https://karpitony.github.io/9roomthonUniv-React-Study/week01)
-2주차 | 9/09 ~ 9/15 | 리액트 복습 + 부트스트랩 배워보기
+2주차 | 9/09 ~ 9/15 | [리액트 복습 + 미니 사이드 프로젝트](https://karpitony.github.io/9roomthonUniv-React-Study/week02)
 3주차 | 9/16 ~ 9/22 | 실전형 리액트 Hooks 10개 강의 수강 
 4주차 | 9/23 ~ 9/29 | 트위터 클론코딩(리액트) 강의 수강
 5주차 | 9/30 ~ 10/06 | NextJS 강의 수강
