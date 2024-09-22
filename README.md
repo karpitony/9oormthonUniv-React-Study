@@ -11,11 +11,11 @@
 |:---:|:---:|:--:|
 1주차 | 9/02 ~ 9/08 | [리액트 웹 예제 클론코딩](https://karpitony.github.io/9roomthonUniv-React-Study/week01)
 2주차 | 9/09 ~ 9/15 | [리액트 복습 + 미니 사이드 프로젝트](https://karpitony.github.io/9roomthonUniv-React-Study/week02)
-3주차 | 9/16 ~ 9/22 | 실전형 리액트 Hooks 10개 강의 수강 
-4주차 | 9/23 ~ 9/29 | 트위터 클론코딩(리액트) 강의 수강
-5주차 | 9/30 ~ 10/06 | NextJS 강의 수강
-6주차 | 10/07 ~ 10/13 | NextJS 강의 수강 + TailwindCSS 배우기
-7주차 | 10/14 ~ 10/20 | 타입스크립트 강의 수강하기
+3주차 | 9/16 ~ 9/22 | [타입스크립트 문법 기초](https://karpitony.github.io/9roomthonUniv-React-Study/week03) 
+4주차 | 9/23 ~ 9/29 | 구름톤 유니브 3기 연합 해커톤
+5주차 | 9/30 ~ 10/06 | 트위터 클론코딩(리액트) 강의 수강
+6주차 | 10/07 ~ 10/13 | NextJS 강의 수강
+7주차 | 10/14 ~ 10/20 | NextJS 강의 수강 + TailwindCSS 배우기
 8주차 | 10/21 ~ 10/27 | 중간고사
 9주차 | 10/28 ~ 11/03 | Recap & 실전 프로젝트 해보기
 
