@@ -11,7 +11,7 @@
 
 ## Axios 사용해서 백엔드와 Api 통신 해보기
 
-![Axios](./img/week05_01.jpg)
+![Axios](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week05_01.jpg)
 
 `Axios`는 **JavaScript**에서 **HTTP 요청**을 쉽게 보낼 수 있게 도와주는 **HTTP 클라이언트**입니다. 주로 비동기로 서버와 데이터를 주고받을 때 사용됩니다. 브라우저뿐만 아니라 `Node.js` 환경에서도 사용할 수 있어서 프론트와 백엔드 모두 사용하는 매우 유용한 라이브러리입니다.
 
@@ -150,7 +150,7 @@ export const getBookSearchUrl = (query: string, display?: number) => {
 
 | 검색 예시 1 | 검색 예시 2 |
 |:---:|:---:|
-| ![북로그 검색](./img/week05_02.png) | ![북로그 검색2](./img/week05_03.png)
+| ![북로그 검색](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week05_02.png) | ![북로그 검색2](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week05_03.png)
 
 ```jsx
 import { useEffect, useState } from 'react'

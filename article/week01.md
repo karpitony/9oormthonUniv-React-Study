@@ -15,7 +15,7 @@
 <hr>
 
 ## `To do 리스트`를 만들며
-![week01_01](/img/week01_01.png)
+![week01_01](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week01_01.png)
 
 ```js
 import { useState } from "react";
@@ -117,7 +117,7 @@ JavaScript의 경우 `...`을 통해 파이썬의 `.extend()`함수처럼 손쉽
 
 ## `Coin Tracker`를 만들며
 
-![week01_02](/img/week01_02.png)
+![week01_02](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week01_02.png)
 
 ```js
 import { useEffect, useState } from "react";
