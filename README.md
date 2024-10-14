@@ -1,4 +1,4 @@
-# 9roomthonUniv-React-Study
+# 9oormthonUniv-React-Study
 
 - 구름톤 유니브 3기 동국대 `리액트 스터디` 기록 레포지토리
 - [노션 바로가기](https://paper-duckling-917.notion.site/7ee22ae1db5b4af4803a7f3b01dd6c57)
