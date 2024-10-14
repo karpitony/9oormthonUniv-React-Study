@@ -1,5 +1,6 @@
 import cn from '@yeahx4/cn'
-import ReactLogo from './assets/react.svg'
+import ReactLogo from '../assets/react.svg'
+import { Link } from 'react-router-dom'
 
 const articleData = [
   { link: 'week01', week: '1주차', date: '9/02 ~ 9/08', title: '리액트 웹 예제 클론코딩' },
@@ -33,9 +34,9 @@ export default function MainPage() {
 
       <div className="w-full max-w-5xl grid gap-6 md:grid-cols-2">
         {articleData.map((article, index) => (
-          <a
+          <Link
             key={index}
-            href={`/${article.link}`}
+            to={`/article/${article.link}`}
             className={cn(
               "group relative p-6 bg-gray-800 bg-opacity-50 rounded-lg",
               "transition duration-300 hover:bg-opacity-70 hover:shadow-lg hover:shadow-blue-500/10",
@@ -54,7 +55,7 @@ export default function MainPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
 
