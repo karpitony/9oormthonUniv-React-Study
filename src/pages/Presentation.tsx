@@ -1,5 +1,5 @@
 import cn from "@yeahx4/cn"
-import AchievementCard from "../components/achievementCard"
+import AchievementCard from "../components/AchievementCard"
 
 const achievements = [
   {
