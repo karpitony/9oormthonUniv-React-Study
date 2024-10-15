@@ -13,7 +13,7 @@ const articleData = [
 
 export default function MainPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center justify-center p-6">
+    <div className="min-h-[95vh] bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center justify-center p-6">
       <header className="text-center mb-8 md:mb-16">
         <h1 className="text-3xl md:text-6xl font-extrabold mb-4 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 flex items-center">
           <img 

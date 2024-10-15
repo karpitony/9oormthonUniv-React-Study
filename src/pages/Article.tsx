@@ -30,7 +30,7 @@ export default function ArticlePage() {
   }, [weekSlug])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center p-3 md:p-6">
+    <div className="min-h-[95vh] bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center p-3 md:p-6">
       <div className="w-full max-w-full md:max-w-4xl"> 
         <Link 
           to="/" 

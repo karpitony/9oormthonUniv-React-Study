@@ -1,7 +1,14 @@
 import cn from "@yeahx4/cn"
 import AchievementCard from "../components/AchievementCard"
 
-const achievements = [
+interface Achievement {
+  title: string
+  description: string
+  icon: string
+  size: string
+}
+
+const achievements: Achievement[] = [
   {
     title: "연합 해커톤 대상",
     description: "짧은 시간 집중적인 노력으로 성과 달성",
@@ -42,10 +49,11 @@ const achievements = [
 
 export default function Presentation() {
   return (
-    <div className={cn(
-      "min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100",
-      "flex flex-col items-center justify-center p-6"
-    )}
+    <div
+      className={cn(
+        "min-h-[95vh] bg-gradient-to-br from-gray-900 to-black text-gray-100",
+        "flex flex-col items-center justify-center p-6"
+      )}
     >
       <h1 className="text-4xl md:text-5xl font-extrabold mb-8 text-center">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
@@ -55,7 +63,10 @@ export default function Presentation() {
 
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
         {achievements.map((achievement) => (
-          <AchievementCard achievement={achievement} />
+          <AchievementCard
+            key={achievement.title}
+            achievement={achievement}
+          />
         ))}
       </div>
 
@@ -63,9 +74,7 @@ export default function Presentation() {
         <p className="text-xl font-semibold text-gray-400">
           구름톤 유니브 3기 동국대 리액트 스터디
         </p>
-        <p className="text-gray-500 mt-2">
-          © 2024 YUNSEOK SONG
-        </p>
+        <p className="text-gray-500 mt-2">© 2024 YUNSEOK SONG</p>
       </div>
     </div>
   )

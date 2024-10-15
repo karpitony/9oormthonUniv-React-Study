@@ -13,7 +13,7 @@ interface AchievementCardProps {
 
 export default function AchievementCard({ achievement }: AchievementCardProps) {
   return (
-  <div 
+  <div
     className={cn(
       "bg-gray-800 bg-opacity-50 border border-gray-700 rounded-lg overflow-hidden",
       "transition-all duration-300 hover: hover:shadow-lg hover:shadow-blue-500/10 hover:border-blue-500/50",
