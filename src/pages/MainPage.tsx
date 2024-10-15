@@ -8,6 +8,7 @@ const articleData = [
   { link: 'week03', week: '3주차', date: '9/16 ~ 9/22', title: 'TypeScript 기본 문법과 활용' },
   { link: 'week04', week: '4주차', date: '9/23 ~ 9/29', title: '🏆 구름톤 연합 해커톤 참가 및 대상 후기' },
   { link: 'week05', week: '5주차', date: '9/30 ~ 10/06', title: ' Axios API 통신 라이브러리 + OpenAPI 사용해보기' },
+  { link: 'week06', week: '6주차', date: '10/07 ~ 10/13', title: '동국x숙명x경기 연합 CRUD 스터디 회고' },
 ]
 
 export default function MainPage() {

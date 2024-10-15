@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
@@ -52,6 +53,7 @@ export default function ArticlePage() {
           <div className="bg-gray-800 bg-opacity-50 rounded-lg p-4 md:p-8 shadow-lg border border-gray-700 md:border-none">
             <div className="markdown-body bg-transparent text-gray-100">
               <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
                 components={{
                   h1: ({ node, ...props }) => <h1 className="text-4xl font-bold mb-4 text-blue-400" {...props} />,
