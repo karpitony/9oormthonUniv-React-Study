@@ -23,7 +23,7 @@ export default function ArticlePage() {
       .then((response) => response.text())
       .then((text) => {
         setMarkdownText(text)
-        setTimeout(() => setLoading(false), 300)
+        setTimeout(() => setLoading(false), 200)
       })
       .catch((error) => {console.error(error)})
   }, [weekSlug])
