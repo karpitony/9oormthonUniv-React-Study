@@ -13,21 +13,21 @@ const articleData = [
 export default function MainPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center justify-center p-6">
-      <header className="text-center mb-16">
-        <h1 className="text-6xl font-extrabold mb-4 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 flex items-center">
+      <header className="text-center mb-8 md:mb-16">
+        <h1 className="text-3xl md:text-6xl font-extrabold mb-4 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 flex items-center">
           <img 
             src={ReactLogo} 
             alt="React Logo" 
-            className="w-12 h-12 animate-spin mr-2"
+            className="w-8 md:w-12 h-8 md:h-12 animate-spin mr-2"
           />
           리액트 스터디 기록
           <img 
             src={ReactLogo} 
             alt="React Logo" 
-            className="w-12 h-12 animate-spin ml-2"
+            className="w-8 md:w-12 h-8 md:h-12 animate-spin ml-2"
           />
         </h1>
-        <h2 className="text-2xl font-medium text-gray-400">
+        <h2 className="text-lg md:text-2xl font-medium text-gray-400">
           ☁️ 구름톤 유니브 3기 동국대
         </h2>
     </header>
@@ -60,7 +60,7 @@ export default function MainPage() {
       </div>
 
       <footer className="mt-16 text-gray-500 text-sm">
-        &copy; 2024 YUNSEOK SONG • Inspired by Vercel
+        &copy; 2024 YUNSEOK SONG
       </footer>
     </div>
   );

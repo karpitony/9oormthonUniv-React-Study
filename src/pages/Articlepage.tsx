@@ -23,15 +23,15 @@ export default function ArticlePage() {
   }, [weekSlug])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center p-6">
-      <div className="w-full max-w-4xl">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-gray-100 flex flex-col items-center p-3 md:p-6">
+      <div className="w-full max-w-full md:max-w-4xl"> {/* 모바일에서는 전체 너비, 데스크탑에서는 4xl */}
         <Link 
           to="/" 
-          className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-6"
+          className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-200 mb-3 md:mb-6"
         >
           Back to Main Page
         </Link>
-        <div className="bg-gray-800 bg-opacity-50 rounded-lg p-8 shadow-lg border border-gray-700">
+        <div className="bg-gray-800 bg-opacity-50 rounded-lg p-4 md:p-8 shadow-lg border border-gray-700 md:border-none"> {/* 데스크탑에서만 border */}
           <div className="markdown-body bg-transparent text-gray-100">
             <ReactMarkdown
               rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
