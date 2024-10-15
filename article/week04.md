@@ -1,4 +1,4 @@
-# 리액트 스터디 4주차 - 🏆 구름톤 연합 해커톤 참가 및 대상 후기
+# [4주차] 🏆 구름톤 연합 해커톤 참가 및 대상 후기
 
 ![뜬구름](https://raw.githubusercontent.com/karpitony/9oormthonUniv-React-Study/refs/heads/main/img/week04/week04_03.webp)
 
