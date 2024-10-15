@@ -6,10 +6,11 @@ export default function Routers() {
   const router = createBrowserRouter([
     {
       path: '/',
-      children: [
-        { path: '/', element: <MainPage /> },
-        { path: '/article/:weekSlug', element: <Article /> },
-      ],
+      element: <MainPage />, 
+    },
+    {
+      path: '/:weekSlug', 
+      element: <Article />,
     },
     {
       path: '*',

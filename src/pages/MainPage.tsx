@@ -36,7 +36,7 @@ export default function MainPage() {
         {articleData.map((article, index) => (
           <Link
             key={index}
-            to={`/article/${article.link}`}
+            to={`/${article.link}`}
             className={cn(
               "group relative p-6 bg-gray-800 bg-opacity-50 rounded-lg",
               "transition duration-300 hover:bg-opacity-70 hover:shadow-lg hover:shadow-blue-500/10",
