@@ -24,14 +24,14 @@ export default function CollaborationExperiences() {
       </div>
 
       {/* 내용 요약 */}
-      <li className="text-lg text-gray-300 leading-relaxed">
+      <li className="text-xl text-gray-300 leading-relaxed">
         두 번의 협업 경험을 통해 <strong>팀워크</strong>와 <strong>의사소통</strong>의 중요성을 깊이 깨달았습니다. 
         다양한 역할을 맡은 팀원들과 함께 작업하며 각 역할의 중요성을 이해하게 되었고, 
         특히 <strong>효율적인 의사소통</strong>이 프로젝트의 성공에 필수적이라는 점을 배웠습니다. 
-        협업 과정에서의 의견 조율과 코드 관리, 디자인 및 개발 간의 조화를 이루는 방법을 배울 수 있었습니다.
+        협업 과정에서의 의견 조율과 코드 관리 방법 등을 배울 수 있었습니다.
       </li>
 
-      <li className="text-lg text-gray-300 leading-relaxed">
+      <li className="text-xl text-gray-300 leading-relaxed">
         앞으로의 프로젝트에서도 이러한 경험을 바탕으로 더 나은 협업 방식을 찾고, 팀원들과의 소통을 
         강화하여 성공적인 결과를 만들어 나가고 싶습니다.
       </li>

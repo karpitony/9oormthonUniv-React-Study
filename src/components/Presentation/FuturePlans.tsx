@@ -32,17 +32,17 @@ export default function FuturePlans() {
         {/* 소제목을 사용한 목록 */}
         <div className="flex items-center justify-center">
           <div className="p-4">
-            <h3 className="text-2xl font-semibold text-gray-200 mb-4">Next.js 심화 학습</h3>
-            <p className="text-lg text-gray-300 mb-6">
-              단풍톤 전까지 Next.js를 집중적으로 학습하여 CSR과 SSR의 차이를 깊이 이해하고, 실제 프로젝트에서 활용할 계획입니다.
+            <h3 className="text-2xl font-semibold text-gray-200 mb-2">Next.js 학습</h3>
+            <p className="text-lg text-gray-300 mb-8">
+              단풍톤 전까지 Next.js를 집중적으로 학습하여 CSR과 SSR의 차이를 이해하고, 토이 프로젝트를 하나 만들어 볼 계획입니다.
             </p>
 
-            <h3 className="text-2xl font-semibold text-gray-200 mb-4">지속적인 학습</h3>
-            <p className="text-lg text-gray-300 mb-6">
+            <h3 className="text-2xl font-semibold text-gray-200 mb-2">지속적인 학습</h3>
+            <p className="text-lg text-gray-300 mb-8">
               짧은 기간 동안 배운 내용을 토대로 실전 프로젝트를 통해 더욱 깊이 있게 학습하며, 개발자로서의 역량을 키울 예정입니다.
             </p>
 
-            <h3 className="text-2xl font-semibold text-gray-200 mb-4">학업 및 중간고사</h3>
+            <h3 className="text-2xl font-semibold text-gray-200 mb-2">학업 및 중간고사</h3>
             <p className="text-lg text-gray-300">
               학업에도 집중하여 중간고사를 잘 준비하고, 전반적인 학습 균형을 유지하겠습니다.
             </p>
