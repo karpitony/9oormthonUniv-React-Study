@@ -1,11 +1,20 @@
+import { useState } from "react"
 import cn from "@yeahx4/cn"
+import Modal from "../components/Modal"
 import AchievementCard from "../components/AchievementCard"
+import HackathonAward from "../components/Presentation/HackerthonAward"
+import TechStackGrowth from "../components/Presentation/TechStackGrowth"
+import WebsiteDeployments from "../components/Presentation/WebsiteDeployments"
+import CollaborationExperiences from "../components/Presentation/CollaborationExperiences"
+import ReactUnderstanding from "../components/Presentation/ReactUnderstanding"
+import FuturePlans from "../components/Presentation/FuturePlans"
 
 interface Achievement {
   title: string
   description: string
   icon: string
-  size: string
+  size: "small" | "medium" | "large"
+  component: React.ReactNode
 }
 
 const achievements: Achievement[] = [
@@ -13,41 +22,60 @@ const achievements: Achievement[] = [
     title: "연합 해커톤 대상",
     description: "짧은 시간 집중적인 노력으로 성과 달성",
     icon: "🏆",
-    size: "large"
+    size: "large",
+    component: <HackathonAward />
   },
   {
     title: "TS 등 기술 스택 확장",
     description: "새로운 기술 습득 및 적용",
     icon: "📚",
-    size: "medium"
+    size: "medium",
+    component: <TechStackGrowth />
   },
   {
     title: "4개의 웹사이트 배포",
     description: "다양한 프로젝트를 통해 실제 배포 경험 획득",
     icon: "🌐",
-    size: "medium"
+    size: "medium",
+    component: <WebsiteDeployments />
   },
   {
     title: "두 번의 협업 경험",
     description: "팀 프로젝트를 통한 협업 능력 향상",
     icon: "🤝",
-    size: "medium"
+    size: "medium",
+    component: <CollaborationExperiences />
   },
   {
-    title: "리액트 아키텍처 이해도 증가",
-    description: "심층적인 리액트 학습을 통한 이해도 향상",
+    title: "리액트 이해도 증가",
+    description: "다양한 리액트 사용 경험을 통한 이해도 향상",
     icon: "⚛️",
-    size: "small"
+    size: "small",
+    component: <ReactUnderstanding />
   },
   {
     title: "앞으로의 계획",
-    description: "지속적인 학습과 프로젝트 참여",
+    description: "지속적인 학습과 단풍톤 참여",
     icon: "🚀",
-    size: "small"
+    size: "small",
+    component: <FuturePlans />
   }
 ]
 
 export default function Presentation() {
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [selectedComponent, setSelectedComponent] = useState<React.ReactNode | null>(null);
+
+  const openModal = (component: React.ReactNode) => {
+    setSelectedComponent(component);
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setSelectedComponent(null);
+  };
+
   return (
     <div
       className={cn(
@@ -63,10 +91,11 @@ export default function Presentation() {
 
       <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-7">
         {achievements.map((achievement) => (
-          <AchievementCard
-            key={achievement.title}
-            achievement={achievement}
-          />
+            <AchievementCard
+              key={achievement.title}
+              achievement={achievement}
+              onClick={() => openModal(achievement.component)}
+            />
         ))}
       </div>
 
@@ -76,6 +105,12 @@ export default function Presentation() {
         </p>
         <p className="text-gray-500 mt-2">© 2024 YUNSEOK SONG</p>
       </div>
+      {/* 모달에 선택된 컴포넌트를 전달 */}
+      <Modal 
+        isOpen={isModalOpen} 
+        onClose={closeModal} 
+        context={selectedComponent}
+      />
     </div>
   )
 }
