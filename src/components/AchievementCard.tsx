@@ -9,11 +9,13 @@ interface Achievement {
 
 interface AchievementCardProps {
   achievement: Achievement;
+  onClick?: () => void;
 }
 
-export default function AchievementCard({ achievement }: AchievementCardProps) {
+export default function AchievementCard({ achievement, onClick }: AchievementCardProps) {
   return (
-  <div 
+  <div
+    onClick={onClick}
     className={cn(
       "bg-gray-800 bg-opacity-50 border border-gray-700 rounded-lg overflow-hidden",
       "transition-all duration-300 hover: hover:shadow-lg hover:shadow-blue-500/10 hover:border-blue-500/50",
