@@ -17,9 +17,12 @@ export default function WebsiteDeployments() {
 
   return (
     <div className="max-w-4xl mx-auto p-0 flex flex-col justify-between space-y-3">
-      <h2 className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
-        4개의 웹사이트 배포
-      </h2>
+      <div className="text-center">
+        <span className="text-3xl">🌐</span>
+        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 inline-block ml-2">
+          4개의 웹사이트 배포
+        </h2>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* 도들 */}
