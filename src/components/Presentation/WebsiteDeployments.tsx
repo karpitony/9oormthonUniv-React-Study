@@ -3,7 +3,6 @@ import ScDodle from '../../assets/Presentation/ScDodle.png';
 import Sc9oormDari from '../../assets/Presentation/Sc9oormDari.png';
 import ScBooklog from '../../assets/Presentation/ScBooklog.png';
 import ScReactMiniBlog from '../../assets/Presentation/ScReactMiniBlog.png';
-import DodleAnalytics from '../../assets/Presentation/DodleAnalytics.png';
 
 export default function WebsiteDeployments() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
