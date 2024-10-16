@@ -85,7 +85,7 @@ export default function PresentationContents() {
     >
       <h1 className="text-4xl md:text-5xl font-extrabold mb-8 text-center">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
-          리액트 스터디 중간 성과 발표
+          리액트 스터디 성과 발표
         </span>
       </h1>
 

@@ -26,7 +26,7 @@ export default function NavBar() {
               to="/presentation"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ml-0 md:ml-4"
             >
-              중간 발표
+              성과 발표
             </Link>
           </div>
         </div>
